@@ -7,7 +7,7 @@ class PingClient {
         Socket s = new Socket("127.0.0.1", 5555);
         BufferedReader dis = new BufferedReader(new InputStreamReader(s.getInputStream()));
         PrintWriter out = new PrintWriter(s.getOutputStream(), true);
-        for (int c = 0; c < 4; c++) {
+        for (int c = 0; c < 7; c++) {
             long t1 = System.currentTimeMillis();
             str = "Welcome to network programming world";
             out.println(str);
