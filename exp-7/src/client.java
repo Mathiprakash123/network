@@ -6,6 +6,6 @@ class client
     {
         Socket soc=new Socket(InetAddress.getLocalHost(),5217);        
         BufferedReader in=new BufferedReader(new InputStreamReader(soc.getInputStream()  ));
-        System.out.println(in.readLine());
+        System.out.     println(in.readLine());
     }    
 }
