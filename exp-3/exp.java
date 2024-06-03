@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BitStuffing {
+public class exp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the message:");
